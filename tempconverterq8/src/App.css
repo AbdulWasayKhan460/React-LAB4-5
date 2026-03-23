@@ -1,0 +1,77 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#edeff3,#c8c3ce);
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+}
+
+.app{
+text-align:center;
+color:white;
+}
+
+.converter{
+background:white;
+padding:30px;
+border-radius:15px;
+width:350px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+color:rgb(185, 44, 44);
+}
+
+.input-box{
+display:flex;
+gap:10px;
+justify-content:center;
+margin-bottom:10px;
+}
+
+input{
+padding:10px;
+border-radius:8px;
+border:1px solid #ccc;
+width:150px;
+}
+
+.convert-btn{
+background:#a5a9bb;
+border:none;
+color:white;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+}
+
+.flip-btn{
+background:#ece6f3;
+border:none;
+color:white;
+padding:10px 12px;
+border-radius:50%;
+cursor:pointer;
+font-size:16px;
+}
+
+.mode{
+margin:10px 0;
+font-weight:bold;
+}
+
+.history{
+margin-top:15px;
+text-align:left;
+}
+
+.history ul{
+padding-left:20px;
+max-height:120px;
+overflow-y:auto;
+}
+
+.history li{
+font-size:14px;
+margin-bottom:5px;
+}

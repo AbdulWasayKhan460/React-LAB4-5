@@ -1,0 +1,80 @@
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(135deg,#0f172a,#1e293b);
+color:white;
+}
+
+.quiz-container{
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+background:white;
+color:black;
+width:450px;
+padding:30px;
+border-radius:14px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+text-align:center;
+}
+
+.progress-bar{
+height:8px;
+background:#e5e7eb;
+border-radius:10px;
+overflow:hidden;
+margin-bottom:20px;
+}
+
+.progress{
+height:100%;
+background:#6366f1;
+}
+
+.options{
+display:flex;
+flex-direction:column;
+gap:10px;
+margin-top:20px;
+}
+
+.options button{
+padding:12px;
+border:none;
+border-radius:8px;
+background:#f1f5f9;
+cursor:pointer;
+transition:0.2s;
+}
+
+.options button:hover{
+background:#e0e7ff;
+}
+
+.selected{
+background:#6366f1 !important;
+color:white;
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+margin-top:20px;
+}
+
+.nav button{
+padding:10px 20px;
+border:none;
+border-radius:8px;
+background:#22c55e;
+color:white;
+cursor:pointer;
+}
+
+.nav button:disabled{
+background:#9ca3af;
+}

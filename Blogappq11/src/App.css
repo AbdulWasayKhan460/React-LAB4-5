@@ -1,0 +1,110 @@
+/* Global */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  color: white;
+}
+
+/* Container */
+.container {
+  padding: 40px;
+  text-align: center;
+}
+
+.heading {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+/* Grid */
+.blog-grid {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Card (Glass Effect) */
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(12px);
+  padding: 20px;
+  width: 260px;
+  border-radius: 16px;
+  transition: 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-8px) scale(1.02);
+}
+
+/* Button */
+.read-btn {
+  margin-top: 15px;
+  padding: 8px 16px;
+  border: none;
+  background: linear-gradient(45deg, #6366f1, #a855f7);
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.read-btn:hover {
+  opacity: 0.85;
+}
+
+/* 🔥 SINGLE BLOG MODERN CARD */
+.single-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+}
+
+/* Gradient Card */
+.single-card {
+  max-width: 700px;
+  padding: 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2));
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255,255,255,0.2);
+  box-shadow: 0 10px 40px rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+.single-card:hover {
+  transform: scale(1.01);
+}
+
+/* Title */
+.single-card h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+/* Content */
+.single-card p {
+  line-height: 1.6;
+  color: #e2e8f0;
+}
+
+/* Back Button */
+.back-btn {
+  margin-bottom: 20px;
+  padding: 6px 14px;
+  border-radius: 20px;
+  border: none;
+  background: linear-gradient(45deg, #334155, #475569);
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.back-btn:hover {
+  opacity: 0.8;
+}

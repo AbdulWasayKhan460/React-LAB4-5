@@ -1,0 +1,119 @@
+body {
+  font-family: Arial;
+  background: #f5fff7;
+  margin: 0;
+  color: black; 
+}
+h1, h2, h3, p {
+  color: black;
+}
+
+/* Navbar */
+nav {
+  background: #1f7a3f;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #000;
+}
+
+nav button {
+  background: white;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 6px;
+  color: black;  
+}
+
+nav button:hover {
+  background: #d4f5dc;
+}
+
+
+.home {
+  text-align: center;
+  margin-top: 40px;
+  color: #000;
+}
+
+/* Products */
+.products {
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 150px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card button {
+  margin-top: 10px;
+  background: #1f7a3f;
+  color: white;
+  border: none;
+  padding: 6px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Cart */
+.cart {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.cart-item {
+  margin: 5px;
+}
+
+/* Checkout */
+.checkout {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.checkout-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.checkout-form input {
+  margin: 8px;
+  padding: 8px;
+  width: 200px;
+}
+
+.checkout-form button {
+  background: #1f7a3f;
+  color: white;
+  border: none;
+  padding: 8px;
+  border-radius: 5px;
+}
+.receipt {
+  background: white;
+  margin: 20px auto;
+  padding: 15px;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  color: black;
+}
+
+.receipt-item {
+  margin: 5px 0;
+}
