@@ -1,5 +1,5 @@
 import { useState } from "react";
-import StudentTable from "./components/StudentTable";
+import StudentTable from "./components/Studenttable";
 import "./App.css";
 
 function App() {
