@@ -1,6 +1,6 @@
 import { useState } from "react";
 import StudentTable from "./components/StudentTable";
-import "./app.css";
+import "./App.css";
 
 function App() {
 
